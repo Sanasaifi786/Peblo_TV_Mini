@@ -18,14 +18,24 @@ A robust, production-ready miniature streaming platform featuring an internal Ed
 
 ---
 
-## 🌟 Services & Live Ports
+## 🌐 Live Production Deployments
 
-| Service | Stack | URL / Port | Credentials / Notes |
+| Component | Platform | Live URL | Description & Access |
 |---|---|---|---|
-| **Backend API** | FastAPI, SQLAlchemy 2.0, Alembic, Pydantic v2 | `http://localhost:8000` | OpenAPI docs at `/docs`, Health check at `/health` |
-| **CMS Studio** | React 18, TypeScript, TanStack Query, TailwindCSS | `http://localhost:5173` | **Admin**: `admin@peblo.tv` / `admin123`<br>**Editor**: `editor@peblo.tv` / `editor123` |
-| **Viewer UI** | React 18, TypeScript, TailwindCSS, Web Audio API | `http://localhost:5174` | Reads exclusively from published `catalogue.json` |
-| **PostgreSQL** | PostgreSQL 16 (Docker) | `localhost:5432` | User: `peblo` / Pass: `peblo` / DB: `peblo_tv` |
+| **Viewer UI** | Vercel | [https://peblo-tv-mini-git-main-sanasaifi786s-projects.vercel.app/](https://peblo-tv-mini-git-main-sanasaifi786s-projects.vercel.app/) | Netflix-style bedtime streaming browse experience |
+| **CMS Studio** | Vercel | [https://peblo-tv-mini-37pu-git-main-sanasaifi786s-projects.vercel.app/](https://peblo-tv-mini-37pu-git-main-sanasaifi786s-projects.vercel.app/) | Content upload, validation reports & atomic publish dashboard |
+| **Backend API** | Render | [https://peblo-tv-mini-8sq7.onrender.com/](https://peblo-tv-mini-8sq7.onrender.com/) | FastAPI REST API, Swagger docs at `/docs`, health at `/health` |
+
+---
+
+## 🌟 Local Services & Development Ports
+
+| Service | Stack | Local Port | Production URL | Credentials / Notes |
+|---|---|---|---|---|
+| **Backend API** | FastAPI, SQLAlchemy 2.0, Alembic | `http://localhost:8000` | [Render Service](https://peblo-tv-mini-8sq7.onrender.com/) | Swagger at `/docs`, Health check at `/health` |
+| **CMS Studio** | React 18, TS, TanStack Query | `http://localhost:5173` | [Vercel Deployment](https://peblo-tv-mini-37pu-git-main-sanasaifi786s-projects.vercel.app/) | **Admin**: `admin@peblo.tv` / `admin123`<br>**Editor**: `editor@peblo.tv` / `editor123` |
+| **Viewer UI** | React 18, TS, Web Audio API | `http://localhost:5174` | [Vercel Deployment](https://peblo-tv-mini-git-main-sanasaifi786s-projects.vercel.app/) | Reads exclusively from published `catalogue.json` |
+| **PostgreSQL** | PostgreSQL 16 (Docker) | `localhost:5432` | Managed Cloud DB | User: `peblo` / Pass: `peblo` / DB: `peblo_tv` |
 
 ---
 
