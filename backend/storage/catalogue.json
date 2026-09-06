@@ -1,0 +1,128 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-09-06T09:16:38.162672+00:00",
+  "sections": [
+    "Trending Now"
+  ],
+  "categories": [
+    "Sci-Fi"
+  ],
+  "languages": [
+    "en",
+    "es"
+  ],
+  "shows": [
+    {
+      "id": 1,
+      "title": "Interstellar Voyage",
+      "description": "Epic sci-fi adventure through black holes.",
+      "section": "Trending Now",
+      "category": "Sci-Fi",
+      "poster_url": "/storage/artwork/voyage_poster.webp",
+      "banner_url": "/storage/artwork/voyage_banner.webp",
+      "available_languages": [
+        "en",
+        "es"
+      ],
+      "seasons": [
+        {
+          "season_number": 1,
+          "title": "Season 1",
+          "episodes": [
+            {
+              "content_group": "cg-voyage-s01e01",
+              "episode_number": 1,
+              "title": "Departure Earth",
+              "description": "The crew embarks on the endurance mission.",
+              "duration_seconds": 3600,
+              "languages": [
+                "en",
+                "es"
+              ],
+              "default_language": "en",
+              "artwork": {
+                "poster": "/storage/artwork/voyage_poster.webp",
+                "banner": "/storage/artwork/voyage_banner.webp",
+                "thumbnail": "/storage/artwork/voyage_thumb.webp"
+              },
+              "variants": [
+                {
+                  "language": "en",
+                  "title": "Departure Earth",
+                  "description": "The crew embarks on the endurance mission.",
+                  "video_url": null,
+                  "artwork": [
+                    {
+                      "type": "poster",
+                      "url": "/storage/artwork/voyage_poster.webp",
+                      "width": 400,
+                      "height": 600
+                    },
+                    {
+                      "type": "banner",
+                      "url": "/storage/artwork/voyage_banner.webp",
+                      "width": 1280,
+                      "height": 720
+                    },
+                    {
+                      "type": "thumbnail",
+                      "url": "/storage/artwork/voyage_thumb.webp",
+                      "width": 640,
+                      "height": 360
+                    }
+                  ]
+                },
+                {
+                  "language": "es",
+                  "title": "Partida de la Tierra",
+                  "description": "La tripulación se embarca.",
+                  "video_url": null,
+                  "artwork": [
+                    {
+                      "type": "thumbnail",
+                      "url": "/storage/artwork/voyage_es_thumb.webp",
+                      "width": 640,
+                      "height": 360
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "trailers": [
+        {
+          "content_group": "cg-voyage-teaser",
+          "episode_number": 1,
+          "title": "Official Teaser",
+          "description": null,
+          "duration_seconds": 90,
+          "languages": [
+            "en"
+          ],
+          "default_language": "en",
+          "artwork": {
+            "thumbnail": "/storage/artwork/teaser_thumb.webp"
+          },
+          "variants": [
+            {
+              "language": "en",
+              "title": "Official Teaser",
+              "description": null,
+              "video_url": null,
+              "artwork": [
+                {
+                  "type": "thumbnail",
+                  "url": "/storage/artwork/teaser_thumb.webp",
+                  "width": 640,
+                  "height": 360
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
