@@ -1,25 +1,43 @@
 {
   "version": "1.0",
-  "generated_at": "2026-09-06T09:16:38.162672+00:00",
+  "generated_at": "2026-09-06T16:33:52.407418+00:00",
   "sections": [
+    "Bedtime Stories & Calming Sounds",
+    "Learning & Discovery",
+    "New Releases",
+    "Peblo Originals",
+    "Popular on Peblo",
     "Trending Now"
   ],
   "categories": [
+    "Action",
+    "Animals",
+    "Bedtime Stories",
+    "Bedtime Wonder",
+    "Cosmic Dreams",
+    "Documentary",
+    "Drama",
+    "Gentle Adventures",
+    "Learning & Wonder",
+    "Music & Lullabies",
+    "Nature Sounds",
     "Sci-Fi"
   ],
   "languages": [
     "en",
-    "es"
+    "es",
+    "fr",
+    "hi"
   ],
   "shows": [
     {
       "id": 1,
-      "title": "Interstellar Voyage",
-      "description": "Epic sci-fi adventure through black holes.",
-      "section": "Trending Now",
+      "title": "Chronicles of Aethelgard",
+      "description": "In a realm powered by arcane clockwork machinery, an exiled cartographer discovers an impending cosmic cataclysm that threatens all kingdoms.",
+      "section": "Peblo Originals",
       "category": "Sci-Fi",
-      "poster_url": "/storage/artwork/voyage_poster.webp",
-      "banner_url": "/storage/artwork/voyage_banner.webp",
+      "poster_url": "/storage/artwork/aethelgard_poster.webp",
+      "banner_url": "/storage/artwork/aethelgard_banner.webp",
       "available_languages": [
         "en",
         "es"
@@ -27,60 +45,90 @@
       "seasons": [
         {
           "season_number": 1,
-          "title": "Season 1",
+          "title": "Season 1: The Broken Gear",
           "episodes": [
             {
-              "content_group": "cg-voyage-s01e01",
+              "content_group": "cg-aethelgard-s01e01",
               "episode_number": 1,
-              "title": "Departure Earth",
-              "description": "The crew embarks on the endurance mission.",
-              "duration_seconds": 3600,
+              "title": "The Gears Awake (English)",
+              "description": "Elena leaves the Iron Citadel after uncovering forbidden astronomical charts.",
+              "duration_seconds": 3240,
               "languages": [
                 "en",
                 "es"
               ],
               "default_language": "en",
               "artwork": {
-                "poster": "/storage/artwork/voyage_poster.webp",
-                "banner": "/storage/artwork/voyage_banner.webp",
-                "thumbnail": "/storage/artwork/voyage_thumb.webp"
+                "thumbnail": "/storage/artwork/aethelgard_s01e01_thumb.webp",
+                "banner": "/storage/artwork/aethelgard_banner.webp",
+                "poster": "/storage/artwork/aethelgard_poster.webp"
               },
               "variants": [
                 {
                   "language": "en",
-                  "title": "Departure Earth",
-                  "description": "The crew embarks on the endurance mission.",
-                  "video_url": null,
+                  "title": "The Gears Awake (English)",
+                  "description": "Elena leaves the Iron Citadel after uncovering forbidden astronomical charts.",
+                  "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
                   "artwork": [
                     {
-                      "type": "poster",
-                      "url": "/storage/artwork/voyage_poster.webp",
-                      "width": 400,
-                      "height": 600
+                      "type": "thumbnail",
+                      "url": "/storage/artwork/aethelgard_s01e01_thumb.webp",
+                      "width": 640,
+                      "height": 360
                     },
                     {
                       "type": "banner",
-                      "url": "/storage/artwork/voyage_banner.webp",
+                      "url": "/storage/artwork/aethelgard_banner.webp",
                       "width": 1280,
                       "height": 720
                     },
                     {
-                      "type": "thumbnail",
-                      "url": "/storage/artwork/voyage_thumb.webp",
-                      "width": 640,
-                      "height": 360
+                      "type": "poster",
+                      "url": "/storage/artwork/aethelgard_poster.webp",
+                      "width": 400,
+                      "height": 600
                     }
                   ]
                 },
                 {
                   "language": "es",
-                  "title": "Partida de la Tierra",
-                  "description": "La tripulación se embarca.",
-                  "video_url": null,
+                  "title": "Los Engranajes Despiertan (Spanish Dub)",
+                  "description": "Elena abandona la Ciudadela de Hierro tras descubrir cartas astronómicas prohibidas.",
+                  "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
                   "artwork": [
                     {
                       "type": "thumbnail",
-                      "url": "/storage/artwork/voyage_es_thumb.webp",
+                      "url": "/storage/artwork/aethelgard_s01e01_thumb.webp",
+                      "width": 640,
+                      "height": 360
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "content_group": "cg-aethelgard-s01e02",
+              "episode_number": 2,
+              "title": "Shadows in the Mist",
+              "description": "Pursued by airship wardens, the expedition enters the forbidden Rust Canyon.",
+              "duration_seconds": 2980,
+              "languages": [
+                "en"
+              ],
+              "default_language": "en",
+              "artwork": {
+                "thumbnail": "/storage/artwork/aethelgard_s01e02_thumb.webp"
+              },
+              "variants": [
+                {
+                  "language": "en",
+                  "title": "Shadows in the Mist",
+                  "description": "Pursued by airship wardens, the expedition enters the forbidden Rust Canyon.",
+                  "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+                  "artwork": [
+                    {
+                      "type": "thumbnail",
+                      "url": "/storage/artwork/aethelgard_s01e02_thumb.webp",
                       "width": 640,
                       "height": 360
                     }
@@ -93,36 +141,1318 @@
       ],
       "trailers": [
         {
-          "content_group": "cg-voyage-teaser",
+          "content_group": "cg-aethelgard-teaser-01",
           "episode_number": 1,
-          "title": "Official Teaser",
-          "description": null,
-          "duration_seconds": 90,
+          "title": "Official Announcement Teaser",
+          "description": "First look at the clockwork kingdom of Aethelgard.",
+          "duration_seconds": 132,
           "languages": [
             "en"
           ],
           "default_language": "en",
           "artwork": {
-            "thumbnail": "/storage/artwork/teaser_thumb.webp"
+            "thumbnail": "/storage/artwork/aethelgard_teaser_thumb.webp",
+            "banner": "/storage/artwork/aethelgard_banner.webp",
+            "poster": "/storage/artwork/aethelgard_poster.webp"
           },
           "variants": [
             {
               "language": "en",
-              "title": "Official Teaser",
-              "description": null,
-              "video_url": null,
+              "title": "Official Announcement Teaser",
+              "description": "First look at the clockwork kingdom of Aethelgard.",
+              "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
               "artwork": [
                 {
                   "type": "thumbnail",
-                  "url": "/storage/artwork/teaser_thumb.webp",
+                  "url": "/storage/artwork/aethelgard_teaser_thumb.webp",
                   "width": 640,
                   "height": 360
+                },
+                {
+                  "type": "banner",
+                  "url": "/storage/artwork/aethelgard_banner.webp",
+                  "width": 1280,
+                  "height": 720
+                },
+                {
+                  "type": "poster",
+                  "url": "/storage/artwork/aethelgard_poster.webp",
+                  "width": 400,
+                  "height": 600
                 }
               ]
             }
           ]
         }
       ]
+    },
+    {
+      "id": 2,
+      "title": "Cyber Pulse: Neo-Tokyo",
+      "description": "In 2094, a digital detective and a rogue cyberneticist unravel high-level algorithmic corruption endangering the megacity.",
+      "section": "Trending Now",
+      "category": "Action",
+      "poster_url": "/storage/artwork/cyberpulse_poster.webp",
+      "banner_url": "/storage/artwork/cyberpulse_banner.webp",
+      "available_languages": [
+        "en",
+        "hi"
+      ],
+      "seasons": [
+        {
+          "season_number": 1,
+          "title": "Season 1: Neon Glitch",
+          "episodes": [
+            {
+              "content_group": "cg-cyberpulse-s01e01",
+              "episode_number": 1,
+              "title": "Ghost in the Wire",
+              "description": "Rin tracks an untraceable neuro-hack penetrating the Central Bank.",
+              "duration_seconds": 2700,
+              "languages": [
+                "en",
+                "hi"
+              ],
+              "default_language": "en",
+              "artwork": {
+                "thumbnail": "/storage/artwork/cyberpulse_s01e01_thumb.webp",
+                "banner": "/storage/artwork/cyberpulse_banner.webp",
+                "poster": "/storage/artwork/cyberpulse_poster.webp"
+              },
+              "variants": [
+                {
+                  "language": "en",
+                  "title": "Ghost in the Wire",
+                  "description": "Rin tracks an untraceable neuro-hack penetrating the Central Bank.",
+                  "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+                  "artwork": [
+                    {
+                      "type": "thumbnail",
+                      "url": "/storage/artwork/cyberpulse_s01e01_thumb.webp",
+                      "width": 640,
+                      "height": 360
+                    },
+                    {
+                      "type": "banner",
+                      "url": "/storage/artwork/cyberpulse_banner.webp",
+                      "width": 1280,
+                      "height": 720
+                    },
+                    {
+                      "type": "poster",
+                      "url": "/storage/artwork/cyberpulse_poster.webp",
+                      "width": 400,
+                      "height": 600
+                    }
+                  ]
+                },
+                {
+                  "language": "hi",
+                  "title": "तार में भूत (Hindi Dub)",
+                  "description": "रिन सेंट्रल बैंक में घुसपैठ करने वाले एक न्यूरो-हैक को ट्रैक करती है।",
+                  "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+                  "artwork": [
+                    {
+                      "type": "thumbnail",
+                      "url": "/storage/artwork/cyberpulse_s01e01_thumb.webp",
+                      "width": 640,
+                      "height": 360
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "trailers": [
+        {
+          "content_group": "cg-cyberpulse-trailer-01",
+          "episode_number": 1,
+          "title": "Cyber Pulse Reveal Trailer",
+          "description": "High-octane neon glimpse into Neo-Tokyo underbelly.",
+          "duration_seconds": 115,
+          "languages": [
+            "en"
+          ],
+          "default_language": "en",
+          "artwork": {
+            "thumbnail": "/storage/artwork/cyberpulse_thumb.webp",
+            "banner": "/storage/artwork/cyberpulse_banner.webp",
+            "poster": "/storage/artwork/cyberpulse_poster.webp"
+          },
+          "variants": [
+            {
+              "language": "en",
+              "title": "Cyber Pulse Reveal Trailer",
+              "description": "High-octane neon glimpse into Neo-Tokyo underbelly.",
+              "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+              "artwork": [
+                {
+                  "type": "thumbnail",
+                  "url": "/storage/artwork/cyberpulse_thumb.webp",
+                  "width": 640,
+                  "height": 360
+                },
+                {
+                  "type": "banner",
+                  "url": "/storage/artwork/cyberpulse_banner.webp",
+                  "width": 1280,
+                  "height": 720
+                },
+                {
+                  "type": "poster",
+                  "url": "/storage/artwork/cyberpulse_poster.webp",
+                  "width": 400,
+                  "height": 600
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "The Culinary Code",
+      "description": "Michelin-starred masterchefs combine cutting-edge molecular gastronomy with centuries-old heritage fermentation.",
+      "section": "Popular on Peblo",
+      "category": "Documentary",
+      "poster_url": "/storage/artwork/culinary_poster.webp",
+      "banner_url": "/storage/artwork/culinary_banner.webp",
+      "available_languages": [
+        "en",
+        "fr"
+      ],
+      "seasons": [
+        {
+          "season_number": 1,
+          "title": "Season 1: Deep Roots",
+          "episodes": [
+            {
+              "content_group": "cg-culinary-s01e01",
+              "episode_number": 1,
+              "title": "The Art of Time (English)",
+              "description": "Exploring 100-year aged balsamic and high-altitude wild yeasts.",
+              "duration_seconds": 2400,
+              "languages": [
+                "en",
+                "fr"
+              ],
+              "default_language": "en",
+              "artwork": {
+                "thumbnail": "/storage/artwork/culinary_thumb.webp",
+                "banner": "/storage/artwork/culinary_banner.webp",
+                "poster": "/storage/artwork/culinary_poster.webp"
+              },
+              "variants": [
+                {
+                  "language": "en",
+                  "title": "The Art of Time (English)",
+                  "description": "Exploring 100-year aged balsamic and high-altitude wild yeasts.",
+                  "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4",
+                  "artwork": [
+                    {
+                      "type": "thumbnail",
+                      "url": "/storage/artwork/culinary_thumb.webp",
+                      "width": 640,
+                      "height": 360
+                    },
+                    {
+                      "type": "banner",
+                      "url": "/storage/artwork/culinary_banner.webp",
+                      "width": 1280,
+                      "height": 720
+                    },
+                    {
+                      "type": "poster",
+                      "url": "/storage/artwork/culinary_poster.webp",
+                      "width": 400,
+                      "height": 600
+                    }
+                  ]
+                },
+                {
+                  "language": "fr",
+                  "title": "L'Art du Temps (French Dub)",
+                  "description": "À la découverte du vinaigre balsamique centenaire et des levures sauvages d'altitude.",
+                  "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4",
+                  "artwork": [
+                    {
+                      "type": "thumbnail",
+                      "url": "/storage/artwork/culinary_thumb.webp",
+                      "width": 640,
+                      "height": 360
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "trailers": []
+    },
+    {
+      "id": 4,
+      "title": "Midnight Café",
+      "description": "A cozy café in downtown Kyoto that only opens from midnight to 6 AM, serving eccentric patrons customized comforting meals.",
+      "section": "Trending Now",
+      "category": "Drama",
+      "poster_url": "/storage/artwork/midnight_poster.webp",
+      "banner_url": "/storage/artwork/midnight_banner.webp",
+      "available_languages": [
+        "en"
+      ],
+      "seasons": [
+        {
+          "season_number": 1,
+          "title": "Season 1",
+          "episodes": [
+            {
+              "content_group": "cg-midnight-s01e01",
+              "episode_number": 1,
+              "title": "Warm Ramen in the Rain",
+              "description": "A tired salaryman and an aspiring violinist cross paths over savory tonkotsu.",
+              "duration_seconds": 1800,
+              "languages": [
+                "en"
+              ],
+              "default_language": "en",
+              "artwork": {
+                "thumbnail": "/storage/artwork/midnight_thumb.webp",
+                "banner": "/storage/artwork/midnight_banner.webp",
+                "poster": "/storage/artwork/midnight_poster.webp"
+              },
+              "variants": [
+                {
+                  "language": "en",
+                  "title": "Warm Ramen in the Rain",
+                  "description": "A tired salaryman and an aspiring violinist cross paths over savory tonkotsu.",
+                  "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+                  "artwork": [
+                    {
+                      "type": "thumbnail",
+                      "url": "/storage/artwork/midnight_thumb.webp",
+                      "width": 640,
+                      "height": 360
+                    },
+                    {
+                      "type": "banner",
+                      "url": "/storage/artwork/midnight_banner.webp",
+                      "width": 1280,
+                      "height": 720
+                    },
+                    {
+                      "type": "poster",
+                      "url": "/storage/artwork/midnight_poster.webp",
+                      "width": 400,
+                      "height": 600
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "trailers": []
+    },
+    {
+      "id": 6,
+      "title": "Luna & The Cloud Whale: Slumber Isles",
+      "description": "Join little Luna as she floats through the cotton-candy dreamlands on a soft starwhale, discovering lullabies and starry secrets before quiet sleep.",
+      "section": "Bedtime Stories & Calming Sounds",
+      "category": "Bedtime Wonder",
+      "poster_url": "/storage/artwork/luna_whale_poster.webp",
+      "banner_url": "/storage/artwork/luna_whale_banner.webp",
+      "available_languages": [
+        "en",
+        "hi"
+      ],
+      "seasons": [
+        {
+          "season_number": 1,
+          "title": "Season 1: Slumber Isles",
+          "episodes": [
+            {
+              "content_group": "cg-luna-s01e01",
+              "episode_number": 1,
+              "title": "The Starwhale Takes Flight (English)",
+              "description": "Luna leaves the Starlight Harbor on the back of a gentle cosmic whale.",
+              "duration_seconds": 1200,
+              "languages": [
+                "en",
+                "hi"
+              ],
+              "default_language": "en",
+              "artwork": {
+                "thumbnail": "/storage/artwork/luna_whale_thumb.webp",
+                "banner": "/storage/artwork/luna_whale_banner.webp",
+                "poster": "/storage/artwork/luna_whale_poster.webp"
+              },
+              "variants": [
+                {
+                  "language": "en",
+                  "title": "The Starwhale Takes Flight (English)",
+                  "description": "Luna leaves the Starlight Harbor on the back of a gentle cosmic whale.",
+                  "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+                  "artwork": [
+                    {
+                      "type": "thumbnail",
+                      "url": "/storage/artwork/luna_whale_thumb.webp",
+                      "width": 640,
+                      "height": 360
+                    },
+                    {
+                      "type": "banner",
+                      "url": "/storage/artwork/luna_whale_banner.webp",
+                      "width": 1280,
+                      "height": 720
+                    },
+                    {
+                      "type": "poster",
+                      "url": "/storage/artwork/luna_whale_poster.webp",
+                      "width": 400,
+                      "height": 600
+                    }
+                  ]
+                },
+                {
+                  "language": "hi",
+                  "title": "तारा व्हेल की यात्रा (Hindi Dub)",
+                  "description": "लूना एक कोमल ब्रह्मांडीय व्हेल की पीठ पर बैठकर तारों भरे आकाश में तैरती है।",
+                  "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+                  "artwork": [
+                    {
+                      "type": "thumbnail",
+                      "url": "/storage/artwork/luna_whale_thumb.webp",
+                      "width": 640,
+                      "height": 360
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "trailers": [
+        {
+          "content_group": "cg-luna-teaser-01",
+          "episode_number": 1,
+          "title": "Luna & The Cloud Whale: Starry Teaser",
+          "description": "A soft sneak peek of Luna floating through cotton-candy skies.",
+          "duration_seconds": 120,
+          "languages": [
+            "en"
+          ],
+          "default_language": "en",
+          "artwork": {
+            "thumbnail": "/storage/artwork/luna_whale_thumb.webp",
+            "banner": "/storage/artwork/luna_whale_banner.webp",
+            "poster": "/storage/artwork/luna_whale_poster.webp"
+          },
+          "variants": [
+            {
+              "language": "en",
+              "title": "Luna & The Cloud Whale: Starry Teaser",
+              "description": "A soft sneak peek of Luna floating through cotton-candy skies.",
+              "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+              "artwork": [
+                {
+                  "type": "thumbnail",
+                  "url": "/storage/artwork/luna_whale_thumb.webp",
+                  "width": 640,
+                  "height": 360
+                },
+                {
+                  "type": "banner",
+                  "url": "/storage/artwork/luna_whale_banner.webp",
+                  "width": 1280,
+                  "height": 720
+                },
+                {
+                  "type": "poster",
+                  "url": "/storage/artwork/luna_whale_poster.webp",
+                  "width": 400,
+                  "height": 600
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Pip & The Whispering Woods",
+      "description": "Pip the little field mouse embarks on soothing twilight walks through the glowing Whispering Woods, helping woodland creatures prepare for sleep with soft songs and gentle lullabies.",
+      "section": "New Releases",
+      "category": "Bedtime Stories",
+      "poster_url": "/storage/artwork/pip_woods_poster.webp",
+      "banner_url": "/storage/artwork/pip_woods_banner.webp",
+      "available_languages": [
+        "en",
+        "hi"
+      ],
+      "seasons": [
+        {
+          "season_number": 1,
+          "title": "Season 1: Whispering Woods",
+          "episodes": [
+            {
+              "content_group": "cg-pip-s01e01",
+              "episode_number": 1,
+              "title": "Ep 1: The Mossy Pillow",
+              "description": "Pip searches for the softest cloud of moss as the twilight stars begin to twinkle over the sleeping forest.",
+              "duration_seconds": 840,
+              "languages": [
+                "en",
+                "hi"
+              ],
+              "default_language": "en",
+              "artwork": {
+                "thumbnail": "/storage/artwork/pip_ep1_thumb.webp",
+                "banner": "/storage/artwork/pip_woods_banner.webp",
+                "poster": "/storage/artwork/pip_woods_poster.webp"
+              },
+              "variants": [
+                {
+                  "language": "en",
+                  "title": "Ep 1: The Mossy Pillow",
+                  "description": "Pip searches for the softest cloud of moss as the twilight stars begin to twinkle over the sleeping forest.",
+                  "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+                  "artwork": [
+                    {
+                      "type": "thumbnail",
+                      "url": "/storage/artwork/pip_ep1_thumb.webp",
+                      "width": 640,
+                      "height": 360
+                    },
+                    {
+                      "type": "banner",
+                      "url": "/storage/artwork/pip_woods_banner.webp",
+                      "width": 1280,
+                      "height": 720
+                    },
+                    {
+                      "type": "poster",
+                      "url": "/storage/artwork/pip_woods_poster.webp",
+                      "width": 400,
+                      "height": 600
+                    }
+                  ]
+                },
+                {
+                  "language": "hi",
+                  "title": "भाग 1: काई का तकिया (Hindi Dub)",
+                  "description": "पिप शाम के सितारों के बीच सबसे कोमल काई की तलाश करता है।",
+                  "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+                  "artwork": [
+                    {
+                      "type": "thumbnail",
+                      "url": "/storage/artwork/pip_ep1_thumb.webp",
+                      "width": 640,
+                      "height": 360
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "content_group": "cg-pip-s01e02",
+              "episode_number": 2,
+              "title": "Ep 2: Firefly Lanterns in the Glen",
+              "description": "Friendly fireflies dim their glowing lights one by one, leading the lost sleepy owlet back to her hollow tree.",
+              "duration_seconds": 960,
+              "languages": [
+                "en"
+              ],
+              "default_language": "en",
+              "artwork": {
+                "thumbnail": "/storage/artwork/pip_ep2_thumb.webp"
+              },
+              "variants": [
+                {
+                  "language": "en",
+                  "title": "Ep 2: Firefly Lanterns in the Glen",
+                  "description": "Friendly fireflies dim their glowing lights one by one, leading the lost sleepy owlet back to her hollow tree.",
+                  "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+                  "artwork": [
+                    {
+                      "type": "thumbnail",
+                      "url": "/storage/artwork/pip_ep2_thumb.webp",
+                      "width": 640,
+                      "height": 360
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "content_group": "cg-pip-s01e03",
+              "episode_number": 3,
+              "title": "Ep 3: The Singing Willow Tree",
+              "description": "The ancient willow hums a wind chime tune when the breeze moves through its silvery leaves.",
+              "duration_seconds": 900,
+              "languages": [
+                "en"
+              ],
+              "default_language": "en",
+              "artwork": {
+                "thumbnail": "/storage/artwork/pip_ep3_thumb.webp"
+              },
+              "variants": [
+                {
+                  "language": "en",
+                  "title": "Ep 3: The Singing Willow Tree",
+                  "description": "The ancient willow hums a wind chime tune when the breeze moves through its silvery leaves.",
+                  "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+                  "artwork": [
+                    {
+                      "type": "thumbnail",
+                      "url": "/storage/artwork/pip_ep3_thumb.webp",
+                      "width": 640,
+                      "height": 360
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "content_group": "cg-pip-s01e04",
+              "episode_number": 4,
+              "title": "Ep 4: Night Rain on Acorn Roofs",
+              "description": "Soft rain drops tap a soothing rhythmic beat on the tiny roofs, helping the entire forest drift off.",
+              "duration_seconds": 1080,
+              "languages": [
+                "en"
+              ],
+              "default_language": "en",
+              "artwork": {
+                "thumbnail": "/storage/artwork/pip_ep4_thumb.webp"
+              },
+              "variants": [
+                {
+                  "language": "en",
+                  "title": "Ep 4: Night Rain on Acorn Roofs",
+                  "description": "Soft rain drops tap a soothing rhythmic beat on the tiny roofs, helping the entire forest drift off.",
+                  "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4",
+                  "artwork": [
+                    {
+                      "type": "thumbnail",
+                      "url": "/storage/artwork/pip_ep4_thumb.webp",
+                      "width": 640,
+                      "height": 360
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "trailers": [
+        {
+          "content_group": "cg-pip-trailer-01",
+          "episode_number": 1,
+          "title": "Watch Trailer (Official Teaser)",
+          "description": "Listen to the gentle woodland chimes of Whispering Woods.",
+          "duration_seconds": 135,
+          "languages": [
+            "en"
+          ],
+          "default_language": "en",
+          "artwork": {
+            "thumbnail": "/storage/artwork/pip_trailer_thumb.webp",
+            "banner": "/storage/artwork/pip_woods_banner.webp",
+            "poster": "/storage/artwork/pip_woods_poster.webp"
+          },
+          "variants": [
+            {
+              "language": "en",
+              "title": "Watch Trailer (Official Teaser)",
+              "description": "Listen to the gentle woodland chimes of Whispering Woods.",
+              "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+              "artwork": [
+                {
+                  "type": "thumbnail",
+                  "url": "/storage/artwork/pip_trailer_thumb.webp",
+                  "width": 640,
+                  "height": 360
+                },
+                {
+                  "type": "banner",
+                  "url": "/storage/artwork/pip_woods_banner.webp",
+                  "width": 1280,
+                  "height": 720
+                },
+                {
+                  "type": "poster",
+                  "url": "/storage/artwork/pip_woods_poster.webp",
+                  "width": 400,
+                  "height": 600
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Moonlit Train to Dreamland",
+      "description": "A magical glowing steam engine travels along rainbow starlight rails, carrying cozy animals to the city of dreams.",
+      "section": "New Releases",
+      "category": "Cosmic Dreams",
+      "poster_url": "/storage/artwork/little_star_poster.webp",
+      "banner_url": null,
+      "available_languages": [
+        "en",
+        "hi"
+      ],
+      "seasons": [
+        {
+          "season_number": 1,
+          "title": "Season 1",
+          "episodes": [
+            {
+              "content_group": "cg-moonlit-s01e01",
+              "episode_number": 1,
+              "title": "The Golden Station (English)",
+              "description": "All aboard the slumber express under the midnight aurora.",
+              "duration_seconds": 1080,
+              "languages": [
+                "en",
+                "hi"
+              ],
+              "default_language": "en",
+              "artwork": {
+                "thumbnail": "/storage/artwork/moonlit_train_thumb.webp",
+                "poster": "/storage/artwork/little_star_poster.webp"
+              },
+              "variants": [
+                {
+                  "language": "en",
+                  "title": "The Golden Station (English)",
+                  "description": "All aboard the slumber express under the midnight aurora.",
+                  "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+                  "artwork": [
+                    {
+                      "type": "thumbnail",
+                      "url": "/storage/artwork/moonlit_train_thumb.webp",
+                      "width": 640,
+                      "height": 360
+                    },
+                    {
+                      "type": "poster",
+                      "url": "/storage/artwork/little_star_poster.webp",
+                      "width": 400,
+                      "height": 600
+                    }
+                  ]
+                },
+                {
+                  "language": "hi",
+                  "title": "सपनों की रेलगाड़ी (Hindi Dub)",
+                  "description": "चांदनी रात में नींद की जादुई यात्रा।",
+                  "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+                  "artwork": [
+                    {
+                      "type": "thumbnail",
+                      "url": "/storage/artwork/moonlit_train_thumb.webp",
+                      "width": 640,
+                      "height": 360
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "trailers": []
+    },
+    {
+      "id": 9,
+      "title": "Starry Kitchen with Chef Mochi",
+      "description": "Join Chef Mochi in baking sweet dream pies and warm honey milk with sensory-calm kitchen sounds.",
+      "section": "New Releases",
+      "category": "Gentle Adventures",
+      "poster_url": "/storage/artwork/star_catcher_poster.webp",
+      "banner_url": null,
+      "available_languages": [
+        "en"
+      ],
+      "seasons": [
+        {
+          "season_number": 1,
+          "title": "Season 1",
+          "episodes": [
+            {
+              "content_group": "cg-mochi-s01e01",
+              "episode_number": 1,
+              "title": "Warm Milk & Honey Dreams",
+              "description": "Stirring a kettle of warm starlight milk with cinnamon spices.",
+              "duration_seconds": 1080,
+              "languages": [
+                "en"
+              ],
+              "default_language": "en",
+              "artwork": {
+                "thumbnail": "/storage/artwork/starry_kitchen_thumb.webp",
+                "poster": "/storage/artwork/star_catcher_poster.webp"
+              },
+              "variants": [
+                {
+                  "language": "en",
+                  "title": "Warm Milk & Honey Dreams",
+                  "description": "Stirring a kettle of warm starlight milk with cinnamon spices.",
+                  "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+                  "artwork": [
+                    {
+                      "type": "thumbnail",
+                      "url": "/storage/artwork/starry_kitchen_thumb.webp",
+                      "width": 640,
+                      "height": 360
+                    },
+                    {
+                      "type": "poster",
+                      "url": "/storage/artwork/star_catcher_poster.webp",
+                      "width": 400,
+                      "height": 600
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "trailers": []
+    },
+    {
+      "id": 10,
+      "title": "Tales of the Whispering Woods",
+      "description": "Nature ambiance and deep slumber soundscapes recorded in twilight old-growth forests.",
+      "section": "New Releases",
+      "category": "Nature Sounds",
+      "poster_url": "/storage/artwork/whistling_bay_poster.webp",
+      "banner_url": null,
+      "available_languages": [
+        "en"
+      ],
+      "seasons": [
+        {
+          "season_number": 1,
+          "title": "Season 1",
+          "episodes": [
+            {
+              "content_group": "cg-whisper-s01e01",
+              "episode_number": 1,
+              "title": "Ancient Pine Whispers",
+              "description": "A soft mountain wind rustles ancient cedar needle canopies.",
+              "duration_seconds": 1080,
+              "languages": [
+                "en"
+              ],
+              "default_language": "en",
+              "artwork": {
+                "thumbnail": "/storage/artwork/whispering_woods_thumb.webp",
+                "poster": "/storage/artwork/whistling_bay_poster.webp"
+              },
+              "variants": [
+                {
+                  "language": "en",
+                  "title": "Ancient Pine Whispers",
+                  "description": "A soft mountain wind rustles ancient cedar needle canopies.",
+                  "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+                  "artwork": [
+                    {
+                      "type": "thumbnail",
+                      "url": "/storage/artwork/whispering_woods_thumb.webp",
+                      "width": 640,
+                      "height": 360
+                    },
+                    {
+                      "type": "poster",
+                      "url": "/storage/artwork/whistling_bay_poster.webp",
+                      "width": 400,
+                      "height": 600
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "trailers": []
+    },
+    {
+      "id": 11,
+      "title": "Sleepy River Lullabies",
+      "description": "Gentle babbling stream water and soothing delta waves to help toddlers fall into uninterrupted sleep.",
+      "section": "Bedtime Stories & Calming Sounds",
+      "category": "Music & Lullabies",
+      "poster_url": "/storage/artwork/starlight_forest_poster.webp",
+      "banner_url": null,
+      "available_languages": [
+        "en"
+      ],
+      "seasons": [
+        {
+          "season_number": 1,
+          "title": "Season 1",
+          "episodes": [
+            {
+              "content_group": "cg-sleepyriver-s01e01",
+              "episode_number": 1,
+              "title": "The Pebble's Gentle Float",
+              "description": "Clear mountain brook sounds accompanied by a distant music box.",
+              "duration_seconds": 1080,
+              "languages": [
+                "en"
+              ],
+              "default_language": "en",
+              "artwork": {
+                "thumbnail": "/storage/artwork/sleepy_river_thumb.webp",
+                "poster": "/storage/artwork/starlight_forest_poster.webp"
+              },
+              "variants": [
+                {
+                  "language": "en",
+                  "title": "The Pebble's Gentle Float",
+                  "description": "Clear mountain brook sounds accompanied by a distant music box.",
+                  "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+                  "artwork": [
+                    {
+                      "type": "thumbnail",
+                      "url": "/storage/artwork/sleepy_river_thumb.webp",
+                      "width": 640,
+                      "height": 360
+                    },
+                    {
+                      "type": "poster",
+                      "url": "/storage/artwork/starlight_forest_poster.webp",
+                      "width": 400,
+                      "height": 600
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "trailers": []
+    },
+    {
+      "id": 12,
+      "title": "The Boy Who Counted Sheep",
+      "description": "A relaxing guided rhythmic bedtime story following little Oliver as fluffy cloud sheep jump over golden fences.",
+      "section": "Bedtime Stories & Calming Sounds",
+      "category": "Bedtime Stories",
+      "poster_url": "/storage/artwork/cotton_wool_poster.webp",
+      "banner_url": null,
+      "available_languages": [
+        "en"
+      ],
+      "seasons": [
+        {
+          "season_number": 1,
+          "title": "Season 1",
+          "episodes": [
+            {
+              "content_group": "cg-sheep-s01e01",
+              "episode_number": 1,
+              "title": "Counting Sheep in the Sky",
+              "description": "Guided breathing and peaceful sheep counting under moonlight.",
+              "duration_seconds": 1500,
+              "languages": [
+                "en"
+              ],
+              "default_language": "en",
+              "artwork": {
+                "thumbnail": "/storage/artwork/counting_sheep_thumb.webp",
+                "poster": "/storage/artwork/cotton_wool_poster.webp"
+              },
+              "variants": [
+                {
+                  "language": "en",
+                  "title": "Counting Sheep in the Sky",
+                  "description": "Guided breathing and peaceful sheep counting under moonlight.",
+                  "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                  "artwork": [
+                    {
+                      "type": "thumbnail",
+                      "url": "/storage/artwork/counting_sheep_thumb.webp",
+                      "width": 640,
+                      "height": 360
+                    },
+                    {
+                      "type": "poster",
+                      "url": "/storage/artwork/cotton_wool_poster.webp",
+                      "width": 400,
+                      "height": 600
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "trailers": []
+    },
+    {
+      "id": 13,
+      "title": "Quiet Ocean Wonders",
+      "description": "Deep sea whale humming and slow oceanic tide rhythms that naturally calm the nervous system.",
+      "section": "Bedtime Stories & Calming Sounds",
+      "category": "Nature Sounds",
+      "poster_url": "/storage/artwork/whistling_bay_poster.webp",
+      "banner_url": null,
+      "available_languages": [
+        "en"
+      ],
+      "seasons": [
+        {
+          "season_number": 1,
+          "title": "Season 1",
+          "episodes": [
+            {
+              "content_group": "cg-ocean-s01e01",
+              "episode_number": 1,
+              "title": "Deep Sea Whale Song",
+              "description": "Gentle underwater pulse and soft acoustic cello melodies.",
+              "duration_seconds": 1200,
+              "languages": [
+                "en"
+              ],
+              "default_language": "en",
+              "artwork": {
+                "thumbnail": "/storage/artwork/quiet_ocean_thumb.webp",
+                "poster": "/storage/artwork/whistling_bay_poster.webp"
+              },
+              "variants": [
+                {
+                  "language": "en",
+                  "title": "Deep Sea Whale Song",
+                  "description": "Gentle underwater pulse and soft acoustic cello melodies.",
+                  "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+                  "artwork": [
+                    {
+                      "type": "thumbnail",
+                      "url": "/storage/artwork/quiet_ocean_thumb.webp",
+                      "width": 640,
+                      "height": 360
+                    },
+                    {
+                      "type": "poster",
+                      "url": "/storage/artwork/whistling_bay_poster.webp",
+                      "width": 400,
+                      "height": 600
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "trailers": []
+    },
+    {
+      "id": 14,
+      "title": "The Cozy Burrow Bedtime",
+      "description": "A heartwarming tale of a rabbit family getting ready for winter slumber inside their warm lantern-lit den.",
+      "section": "Bedtime Stories & Calming Sounds",
+      "category": "Animals",
+      "poster_url": "/storage/artwork/old_oak_poster.webp",
+      "banner_url": null,
+      "available_languages": [
+        "en"
+      ],
+      "seasons": [
+        {
+          "season_number": 1,
+          "title": "Season 1",
+          "episodes": [
+            {
+              "content_group": "cg-burrow-s01e01",
+              "episode_number": 1,
+              "title": "Tucking In Under Oak Leaves",
+              "description": "Mama rabbit sings a lullaby as warm herbal tea cools on the hearth.",
+              "duration_seconds": 1320,
+              "languages": [
+                "en"
+              ],
+              "default_language": "en",
+              "artwork": {
+                "thumbnail": "/storage/artwork/cozy_burrow_thumb.webp",
+                "poster": "/storage/artwork/old_oak_poster.webp"
+              },
+              "variants": [
+                {
+                  "language": "en",
+                  "title": "Tucking In Under Oak Leaves",
+                  "description": "Mama rabbit sings a lullaby as warm herbal tea cools on the hearth.",
+                  "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+                  "artwork": [
+                    {
+                      "type": "thumbnail",
+                      "url": "/storage/artwork/cozy_burrow_thumb.webp",
+                      "width": 640,
+                      "height": 360
+                    },
+                    {
+                      "type": "poster",
+                      "url": "/storage/artwork/old_oak_poster.webp",
+                      "width": 400,
+                      "height": 600
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "trailers": []
+    },
+    {
+      "id": 15,
+      "title": "Professor Owl's Cosmic Shapes",
+      "description": "Professor Owl traces shimmering constellation geometry across the quiet midnight sky for inquisitive young minds.",
+      "section": "Learning & Discovery",
+      "category": "Learning & Wonder",
+      "poster_url": "/storage/artwork/little_panda_poster.webp",
+      "banner_url": null,
+      "available_languages": [
+        "en"
+      ],
+      "seasons": [
+        {
+          "season_number": 1,
+          "title": "Season 1",
+          "episodes": [
+            {
+              "content_group": "cg-owl-s01e01",
+              "episode_number": 1,
+              "title": "Shapes in the Starlight",
+              "description": "Discovering triangles and circles through twinkling star clusters.",
+              "duration_seconds": 900,
+              "languages": [
+                "en"
+              ],
+              "default_language": "en",
+              "artwork": {
+                "thumbnail": "/storage/artwork/professor_owl_thumb.webp",
+                "poster": "/storage/artwork/little_panda_poster.webp"
+              },
+              "variants": [
+                {
+                  "language": "en",
+                  "title": "Shapes in the Starlight",
+                  "description": "Discovering triangles and circles through twinkling star clusters.",
+                  "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+                  "artwork": [
+                    {
+                      "type": "thumbnail",
+                      "url": "/storage/artwork/professor_owl_thumb.webp",
+                      "width": 640,
+                      "height": 360
+                    },
+                    {
+                      "type": "poster",
+                      "url": "/storage/artwork/little_panda_poster.webp",
+                      "width": 400,
+                      "height": 600
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "trailers": []
+    },
+    {
+      "id": 16,
+      "title": "Little Botanist: Why Do Trees Sleep?",
+      "description": "A curious journey through the sleeping garden, explaining how flowers fold their petals when the sun sets.",
+      "section": "Learning & Discovery",
+      "category": "Learning & Wonder",
+      "poster_url": "/storage/artwork/old_oak_poster.webp",
+      "banner_url": null,
+      "available_languages": [
+        "en"
+      ],
+      "seasons": [
+        {
+          "season_number": 1,
+          "title": "Season 1",
+          "episodes": [
+            {
+              "content_group": "cg-botanist-s01e01",
+              "episode_number": 1,
+              "title": "Petals Folding at Twilight",
+              "description": "Exploring photosynthesis, nocturnal dew, and night blooms.",
+              "duration_seconds": 840,
+              "languages": [
+                "en"
+              ],
+              "default_language": "en",
+              "artwork": {
+                "thumbnail": "/storage/artwork/little_botanist_thumb.webp",
+                "poster": "/storage/artwork/old_oak_poster.webp"
+              },
+              "variants": [
+                {
+                  "language": "en",
+                  "title": "Petals Folding at Twilight",
+                  "description": "Exploring photosynthesis, nocturnal dew, and night blooms.",
+                  "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+                  "artwork": [
+                    {
+                      "type": "thumbnail",
+                      "url": "/storage/artwork/little_botanist_thumb.webp",
+                      "width": 640,
+                      "height": 360
+                    },
+                    {
+                      "type": "poster",
+                      "url": "/storage/artwork/old_oak_poster.webp",
+                      "width": 400,
+                      "height": 600
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "trailers": []
+    },
+    {
+      "id": 17,
+      "title": "Colors of the Deep Twilight",
+      "description": "Art & color recognition through sunset transitions: golden orange, dusky violet, indigo velvet, and star silver.",
+      "section": "Learning & Discovery",
+      "category": "Learning & Wonder",
+      "poster_url": "/storage/artwork/cotton_wool_poster.webp",
+      "banner_url": null,
+      "available_languages": [
+        "en"
+      ],
+      "seasons": [
+        {
+          "season_number": 1,
+          "title": "Season 1",
+          "episodes": [
+            {
+              "content_group": "cg-colors-s01e01",
+              "episode_number": 1,
+              "title": "From Amber to Indigo",
+              "description": "Soft color theory lessons matched with soothing cello music.",
+              "duration_seconds": 720,
+              "languages": [
+                "en"
+              ],
+              "default_language": "en",
+              "artwork": {
+                "thumbnail": "/storage/artwork/colors_twilight_thumb.webp",
+                "poster": "/storage/artwork/cotton_wool_poster.webp"
+              },
+              "variants": [
+                {
+                  "language": "en",
+                  "title": "From Amber to Indigo",
+                  "description": "Soft color theory lessons matched with soothing cello music.",
+                  "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+                  "artwork": [
+                    {
+                      "type": "thumbnail",
+                      "url": "/storage/artwork/colors_twilight_thumb.webp",
+                      "width": 640,
+                      "height": 360
+                    },
+                    {
+                      "type": "poster",
+                      "url": "/storage/artwork/cotton_wool_poster.webp",
+                      "width": 400,
+                      "height": 600
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "trailers": []
+    },
+    {
+      "id": 18,
+      "title": "Number Stars",
+      "description": "Gentle rhythmic counting from 1 to 10 with friendly sleepy stars lighting up in succession.",
+      "section": "Learning & Discovery",
+      "category": "Learning & Wonder",
+      "poster_url": "/storage/artwork/little_star_poster.webp",
+      "banner_url": null,
+      "available_languages": [
+        "en"
+      ],
+      "seasons": [
+        {
+          "season_number": 1,
+          "title": "Season 1",
+          "episodes": [
+            {
+              "content_group": "cg-stars-s01e01",
+              "episode_number": 1,
+              "title": "Counting One to Ten in the Sky",
+              "description": "Each star twinkles a soft bell chime when counted.",
+              "duration_seconds": 960,
+              "languages": [
+                "en"
+              ],
+              "default_language": "en",
+              "artwork": {
+                "thumbnail": "/storage/artwork/number_stars_thumb.webp",
+                "poster": "/storage/artwork/little_star_poster.webp"
+              },
+              "variants": [
+                {
+                  "language": "en",
+                  "title": "Counting One to Ten in the Sky",
+                  "description": "Each star twinkles a soft bell chime when counted.",
+                  "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+                  "artwork": [
+                    {
+                      "type": "thumbnail",
+                      "url": "/storage/artwork/number_stars_thumb.webp",
+                      "width": 640,
+                      "height": 360
+                    },
+                    {
+                      "type": "poster",
+                      "url": "/storage/artwork/little_star_poster.webp",
+                      "width": 400,
+                      "height": 600
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "trailers": []
     }
   ]
 }
