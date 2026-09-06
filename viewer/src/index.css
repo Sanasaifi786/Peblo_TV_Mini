@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #0b0f19;
+    color: #e2e8f0;
+    overflow-x: hidden;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Hide horizontal scrollbar but keep scrolling functionality */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Bedtime Vignette & Dreamy Gradients */
+.hero-vignette {
+  background: 
+    radial-gradient(ellipse at top right, rgba(99, 102, 241, 0.15) 0%, transparent 60%),
+    linear-gradient(
+      77deg,
+      rgba(11, 15, 25, 0.96) 0%,
+      rgba(11, 15, 25, 0.75) 45%,
+      rgba(11, 15, 25, 0.3) 80%,
+      transparent 100%
+    ),
+    linear-gradient(
+      180deg,
+      transparent 55%,
+      rgba(11, 15, 25, 0.85) 80%,
+      #0b0f19 100%
+    );
+}
+
+.card-zoom {
+  transition: transform 0.3s cubic-bezier(0.2, 0, 0.2, 1), box-shadow 0.3s ease;
+}
+.card-zoom:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 16px 36px -8px rgba(0, 0, 0, 0.8), 0 0 20px rgba(245, 197, 68, 0.15);
+  z-index: 10;
+}
+
+/* Star glow and soft golden accents */
+.gold-glow {
+  box-shadow: 0 0 25px rgba(246, 197, 67, 0.35);
+}
+
+.ambient-pulse {
+  animation: pulse-glow 4s ease-in-out infinite;
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    opacity: 0.7;
+    filter: drop-shadow(0 0 12px rgba(246, 197, 67, 0.3));
+  }
+  50% {
+    opacity: 1;
+    filter: drop-shadow(0 0 24px rgba(246, 197, 67, 0.6));
+  }
+}
