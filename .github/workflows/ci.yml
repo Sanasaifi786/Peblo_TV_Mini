@@ -1,0 +1,100 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  lint-and-test:
+    name: Lint & Test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      # Backend Checks
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Backend Dependencies
+        run: |
+          cd backend
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Backend Pytest Suite
+        run: |
+          cd backend
+          python -m pytest -v
+
+      # CMS Checks
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+          cache-dependency-path: cms/package.json
+
+      - name: Build CMS Frontend
+        run: |
+          cd cms
+          npm ci
+          npm run build
+
+      # Viewer Checks
+      - name: Build Viewer Frontend
+        run: |
+          cd viewer
+          npm ci
+          npm run build
+
+  docker-build:
+    name: Docker Build Validation
+    needs: lint-and-test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Build Backend Image
+        uses: docker/build-push-action@v5
+        with:
+          context: ./backend
+          push: false
+          tags: peblo-tv-api:latest
+
+      - name: Build CMS Image
+        uses: docker/build-push-action@v5
+        with:
+          context: ./cms
+          push: false
+          tags: peblo-tv-cms:latest
+
+      - name: Build Viewer Image
+        uses: docker/build-push-action@v5
+        with:
+          context: ./viewer
+          push: false
+          tags: peblo-tv-viewer:latest
+
+  deploy:
+    name: Deployment Pipeline (Documented Target)
+    needs: docker-build
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - name: Deployment Instructions & Target Hook
+        run: |
+          echo "CI Pipeline Passed."
+          echo "In production:"
+          echo "1. Authenticate with Docker Registry (e.g. Docker Hub, GHCR, AWS ECR):"
+          echo "   echo \${{ secrets.DOCKER_PASSWORD }} | docker login -u \${{ secrets.DOCKER_USERNAME }} --password-stdin"
+          echo "2. Push images: docker push myorg/peblo-tv-api:latest, etc."
+          echo "3. Trigger deployment webhook / Kubernetes helm upgrade / AWS ECS service update."
