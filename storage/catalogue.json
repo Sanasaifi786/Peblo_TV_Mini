@@ -1,28 +1,465 @@
 {
   "version": "1.0",
-  "generated_at": "2026-09-05T09:56:39.173889+00:00",
+  "generated_at": "2026-09-06T16:33:52.407418+00:00",
   "sections": [
     "Bedtime Stories & Calming Sounds",
     "Learning & Discovery",
-    "New Releases"
+    "New Releases",
+    "Peblo Originals",
+    "Popular on Peblo",
+    "Trending Now"
   ],
   "categories": [
+    "Action",
     "Animals",
     "Bedtime Stories",
     "Bedtime Wonder",
     "Cosmic Dreams",
+    "Documentary",
+    "Drama",
     "Gentle Adventures",
     "Learning & Wonder",
     "Music & Lullabies",
-    "Nature Sounds"
+    "Nature Sounds",
+    "Sci-Fi"
   ],
   "languages": [
     "en",
+    "es",
+    "fr",
     "hi"
   ],
   "shows": [
     {
       "id": 1,
+      "title": "Chronicles of Aethelgard",
+      "description": "In a realm powered by arcane clockwork machinery, an exiled cartographer discovers an impending cosmic cataclysm that threatens all kingdoms.",
+      "section": "Peblo Originals",
+      "category": "Sci-Fi",
+      "poster_url": "/storage/artwork/aethelgard_poster.webp",
+      "banner_url": "/storage/artwork/aethelgard_banner.webp",
+      "available_languages": [
+        "en",
+        "es"
+      ],
+      "seasons": [
+        {
+          "season_number": 1,
+          "title": "Season 1: The Broken Gear",
+          "episodes": [
+            {
+              "content_group": "cg-aethelgard-s01e01",
+              "episode_number": 1,
+              "title": "The Gears Awake (English)",
+              "description": "Elena leaves the Iron Citadel after uncovering forbidden astronomical charts.",
+              "duration_seconds": 3240,
+              "languages": [
+                "en",
+                "es"
+              ],
+              "default_language": "en",
+              "artwork": {
+                "thumbnail": "/storage/artwork/aethelgard_s01e01_thumb.webp",
+                "banner": "/storage/artwork/aethelgard_banner.webp",
+                "poster": "/storage/artwork/aethelgard_poster.webp"
+              },
+              "variants": [
+                {
+                  "language": "en",
+                  "title": "The Gears Awake (English)",
+                  "description": "Elena leaves the Iron Citadel after uncovering forbidden astronomical charts.",
+                  "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+                  "artwork": [
+                    {
+                      "type": "thumbnail",
+                      "url": "/storage/artwork/aethelgard_s01e01_thumb.webp",
+                      "width": 640,
+                      "height": 360
+                    },
+                    {
+                      "type": "banner",
+                      "url": "/storage/artwork/aethelgard_banner.webp",
+                      "width": 1280,
+                      "height": 720
+                    },
+                    {
+                      "type": "poster",
+                      "url": "/storage/artwork/aethelgard_poster.webp",
+                      "width": 400,
+                      "height": 600
+                    }
+                  ]
+                },
+                {
+                  "language": "es",
+                  "title": "Los Engranajes Despiertan (Spanish Dub)",
+                  "description": "Elena abandona la Ciudadela de Hierro tras descubrir cartas astronómicas prohibidas.",
+                  "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+                  "artwork": [
+                    {
+                      "type": "thumbnail",
+                      "url": "/storage/artwork/aethelgard_s01e01_thumb.webp",
+                      "width": 640,
+                      "height": 360
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "content_group": "cg-aethelgard-s01e02",
+              "episode_number": 2,
+              "title": "Shadows in the Mist",
+              "description": "Pursued by airship wardens, the expedition enters the forbidden Rust Canyon.",
+              "duration_seconds": 2980,
+              "languages": [
+                "en"
+              ],
+              "default_language": "en",
+              "artwork": {
+                "thumbnail": "/storage/artwork/aethelgard_s01e02_thumb.webp"
+              },
+              "variants": [
+                {
+                  "language": "en",
+                  "title": "Shadows in the Mist",
+                  "description": "Pursued by airship wardens, the expedition enters the forbidden Rust Canyon.",
+                  "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+                  "artwork": [
+                    {
+                      "type": "thumbnail",
+                      "url": "/storage/artwork/aethelgard_s01e02_thumb.webp",
+                      "width": 640,
+                      "height": 360
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "trailers": [
+        {
+          "content_group": "cg-aethelgard-teaser-01",
+          "episode_number": 1,
+          "title": "Official Announcement Teaser",
+          "description": "First look at the clockwork kingdom of Aethelgard.",
+          "duration_seconds": 132,
+          "languages": [
+            "en"
+          ],
+          "default_language": "en",
+          "artwork": {
+            "thumbnail": "/storage/artwork/aethelgard_teaser_thumb.webp",
+            "banner": "/storage/artwork/aethelgard_banner.webp",
+            "poster": "/storage/artwork/aethelgard_poster.webp"
+          },
+          "variants": [
+            {
+              "language": "en",
+              "title": "Official Announcement Teaser",
+              "description": "First look at the clockwork kingdom of Aethelgard.",
+              "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+              "artwork": [
+                {
+                  "type": "thumbnail",
+                  "url": "/storage/artwork/aethelgard_teaser_thumb.webp",
+                  "width": 640,
+                  "height": 360
+                },
+                {
+                  "type": "banner",
+                  "url": "/storage/artwork/aethelgard_banner.webp",
+                  "width": 1280,
+                  "height": 720
+                },
+                {
+                  "type": "poster",
+                  "url": "/storage/artwork/aethelgard_poster.webp",
+                  "width": 400,
+                  "height": 600
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Cyber Pulse: Neo-Tokyo",
+      "description": "In 2094, a digital detective and a rogue cyberneticist unravel high-level algorithmic corruption endangering the megacity.",
+      "section": "Trending Now",
+      "category": "Action",
+      "poster_url": "/storage/artwork/cyberpulse_poster.webp",
+      "banner_url": "/storage/artwork/cyberpulse_banner.webp",
+      "available_languages": [
+        "en",
+        "hi"
+      ],
+      "seasons": [
+        {
+          "season_number": 1,
+          "title": "Season 1: Neon Glitch",
+          "episodes": [
+            {
+              "content_group": "cg-cyberpulse-s01e01",
+              "episode_number": 1,
+              "title": "Ghost in the Wire",
+              "description": "Rin tracks an untraceable neuro-hack penetrating the Central Bank.",
+              "duration_seconds": 2700,
+              "languages": [
+                "en",
+                "hi"
+              ],
+              "default_language": "en",
+              "artwork": {
+                "thumbnail": "/storage/artwork/cyberpulse_s01e01_thumb.webp",
+                "banner": "/storage/artwork/cyberpulse_banner.webp",
+                "poster": "/storage/artwork/cyberpulse_poster.webp"
+              },
+              "variants": [
+                {
+                  "language": "en",
+                  "title": "Ghost in the Wire",
+                  "description": "Rin tracks an untraceable neuro-hack penetrating the Central Bank.",
+                  "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+                  "artwork": [
+                    {
+                      "type": "thumbnail",
+                      "url": "/storage/artwork/cyberpulse_s01e01_thumb.webp",
+                      "width": 640,
+                      "height": 360
+                    },
+                    {
+                      "type": "banner",
+                      "url": "/storage/artwork/cyberpulse_banner.webp",
+                      "width": 1280,
+                      "height": 720
+                    },
+                    {
+                      "type": "poster",
+                      "url": "/storage/artwork/cyberpulse_poster.webp",
+                      "width": 400,
+                      "height": 600
+                    }
+                  ]
+                },
+                {
+                  "language": "hi",
+                  "title": "तार में भूत (Hindi Dub)",
+                  "description": "रिन सेंट्रल बैंक में घुसपैठ करने वाले एक न्यूरो-हैक को ट्रैक करती है।",
+                  "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+                  "artwork": [
+                    {
+                      "type": "thumbnail",
+                      "url": "/storage/artwork/cyberpulse_s01e01_thumb.webp",
+                      "width": 640,
+                      "height": 360
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "trailers": [
+        {
+          "content_group": "cg-cyberpulse-trailer-01",
+          "episode_number": 1,
+          "title": "Cyber Pulse Reveal Trailer",
+          "description": "High-octane neon glimpse into Neo-Tokyo underbelly.",
+          "duration_seconds": 115,
+          "languages": [
+            "en"
+          ],
+          "default_language": "en",
+          "artwork": {
+            "thumbnail": "/storage/artwork/cyberpulse_thumb.webp",
+            "banner": "/storage/artwork/cyberpulse_banner.webp",
+            "poster": "/storage/artwork/cyberpulse_poster.webp"
+          },
+          "variants": [
+            {
+              "language": "en",
+              "title": "Cyber Pulse Reveal Trailer",
+              "description": "High-octane neon glimpse into Neo-Tokyo underbelly.",
+              "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+              "artwork": [
+                {
+                  "type": "thumbnail",
+                  "url": "/storage/artwork/cyberpulse_thumb.webp",
+                  "width": 640,
+                  "height": 360
+                },
+                {
+                  "type": "banner",
+                  "url": "/storage/artwork/cyberpulse_banner.webp",
+                  "width": 1280,
+                  "height": 720
+                },
+                {
+                  "type": "poster",
+                  "url": "/storage/artwork/cyberpulse_poster.webp",
+                  "width": 400,
+                  "height": 600
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "The Culinary Code",
+      "description": "Michelin-starred masterchefs combine cutting-edge molecular gastronomy with centuries-old heritage fermentation.",
+      "section": "Popular on Peblo",
+      "category": "Documentary",
+      "poster_url": "/storage/artwork/culinary_poster.webp",
+      "banner_url": "/storage/artwork/culinary_banner.webp",
+      "available_languages": [
+        "en",
+        "fr"
+      ],
+      "seasons": [
+        {
+          "season_number": 1,
+          "title": "Season 1: Deep Roots",
+          "episodes": [
+            {
+              "content_group": "cg-culinary-s01e01",
+              "episode_number": 1,
+              "title": "The Art of Time (English)",
+              "description": "Exploring 100-year aged balsamic and high-altitude wild yeasts.",
+              "duration_seconds": 2400,
+              "languages": [
+                "en",
+                "fr"
+              ],
+              "default_language": "en",
+              "artwork": {
+                "thumbnail": "/storage/artwork/culinary_thumb.webp",
+                "banner": "/storage/artwork/culinary_banner.webp",
+                "poster": "/storage/artwork/culinary_poster.webp"
+              },
+              "variants": [
+                {
+                  "language": "en",
+                  "title": "The Art of Time (English)",
+                  "description": "Exploring 100-year aged balsamic and high-altitude wild yeasts.",
+                  "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4",
+                  "artwork": [
+                    {
+                      "type": "thumbnail",
+                      "url": "/storage/artwork/culinary_thumb.webp",
+                      "width": 640,
+                      "height": 360
+                    },
+                    {
+                      "type": "banner",
+                      "url": "/storage/artwork/culinary_banner.webp",
+                      "width": 1280,
+                      "height": 720
+                    },
+                    {
+                      "type": "poster",
+                      "url": "/storage/artwork/culinary_poster.webp",
+                      "width": 400,
+                      "height": 600
+                    }
+                  ]
+                },
+                {
+                  "language": "fr",
+                  "title": "L'Art du Temps (French Dub)",
+                  "description": "À la découverte du vinaigre balsamique centenaire et des levures sauvages d'altitude.",
+                  "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4",
+                  "artwork": [
+                    {
+                      "type": "thumbnail",
+                      "url": "/storage/artwork/culinary_thumb.webp",
+                      "width": 640,
+                      "height": 360
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "trailers": []
+    },
+    {
+      "id": 4,
+      "title": "Midnight Café",
+      "description": "A cozy café in downtown Kyoto that only opens from midnight to 6 AM, serving eccentric patrons customized comforting meals.",
+      "section": "Trending Now",
+      "category": "Drama",
+      "poster_url": "/storage/artwork/midnight_poster.webp",
+      "banner_url": "/storage/artwork/midnight_banner.webp",
+      "available_languages": [
+        "en"
+      ],
+      "seasons": [
+        {
+          "season_number": 1,
+          "title": "Season 1",
+          "episodes": [
+            {
+              "content_group": "cg-midnight-s01e01",
+              "episode_number": 1,
+              "title": "Warm Ramen in the Rain",
+              "description": "A tired salaryman and an aspiring violinist cross paths over savory tonkotsu.",
+              "duration_seconds": 1800,
+              "languages": [
+                "en"
+              ],
+              "default_language": "en",
+              "artwork": {
+                "thumbnail": "/storage/artwork/midnight_thumb.webp",
+                "banner": "/storage/artwork/midnight_banner.webp",
+                "poster": "/storage/artwork/midnight_poster.webp"
+              },
+              "variants": [
+                {
+                  "language": "en",
+                  "title": "Warm Ramen in the Rain",
+                  "description": "A tired salaryman and an aspiring violinist cross paths over savory tonkotsu.",
+                  "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+                  "artwork": [
+                    {
+                      "type": "thumbnail",
+                      "url": "/storage/artwork/midnight_thumb.webp",
+                      "width": 640,
+                      "height": 360
+                    },
+                    {
+                      "type": "banner",
+                      "url": "/storage/artwork/midnight_banner.webp",
+                      "width": 1280,
+                      "height": 720
+                    },
+                    {
+                      "type": "poster",
+                      "url": "/storage/artwork/midnight_poster.webp",
+                      "width": 400,
+                      "height": 600
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "trailers": []
+    },
+    {
+      "id": 6,
       "title": "Luna & The Cloud Whale: Slumber Isles",
       "description": "Join little Luna as she floats through the cotton-candy dreamlands on a soft starwhale, discovering lullabies and starry secrets before quiet sleep.",
       "section": "Bedtime Stories & Calming Sounds",
@@ -148,7 +585,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": 7,
       "title": "Pip & The Whispering Woods",
       "description": "Pip the little field mouse embarks on soothing twilight walks through the glowing Whispering Woods, helping woodland creatures prepare for sleep with soft songs and gentle lullabies.",
       "section": "New Releases",
@@ -364,7 +801,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": 8,
       "title": "Moonlit Train to Dreamland",
       "description": "A magical glowing steam engine travels along rainbow starlight rails, carrying cozy animals to the city of dreams.",
       "section": "New Releases",
@@ -438,7 +875,7 @@
       "trailers": []
     },
     {
-      "id": 4,
+      "id": 9,
       "title": "Starry Kitchen with Chef Mochi",
       "description": "Join Chef Mochi in baking sweet dream pies and warm honey milk with sensory-calm kitchen sounds.",
       "section": "New Releases",
@@ -496,7 +933,7 @@
       "trailers": []
     },
     {
-      "id": 5,
+      "id": 10,
       "title": "Tales of the Whispering Woods",
       "description": "Nature ambiance and deep slumber soundscapes recorded in twilight old-growth forests.",
       "section": "New Releases",
@@ -554,7 +991,7 @@
       "trailers": []
     },
     {
-      "id": 6,
+      "id": 11,
       "title": "Sleepy River Lullabies",
       "description": "Gentle babbling stream water and soothing delta waves to help toddlers fall into uninterrupted sleep.",
       "section": "Bedtime Stories & Calming Sounds",
@@ -612,7 +1049,7 @@
       "trailers": []
     },
     {
-      "id": 7,
+      "id": 12,
       "title": "The Boy Who Counted Sheep",
       "description": "A relaxing guided rhythmic bedtime story following little Oliver as fluffy cloud sheep jump over golden fences.",
       "section": "Bedtime Stories & Calming Sounds",
@@ -670,7 +1107,7 @@
       "trailers": []
     },
     {
-      "id": 8,
+      "id": 13,
       "title": "Quiet Ocean Wonders",
       "description": "Deep sea whale humming and slow oceanic tide rhythms that naturally calm the nervous system.",
       "section": "Bedtime Stories & Calming Sounds",
@@ -728,7 +1165,7 @@
       "trailers": []
     },
     {
-      "id": 9,
+      "id": 14,
       "title": "The Cozy Burrow Bedtime",
       "description": "A heartwarming tale of a rabbit family getting ready for winter slumber inside their warm lantern-lit den.",
       "section": "Bedtime Stories & Calming Sounds",
@@ -786,7 +1223,7 @@
       "trailers": []
     },
     {
-      "id": 10,
+      "id": 15,
       "title": "Professor Owl's Cosmic Shapes",
       "description": "Professor Owl traces shimmering constellation geometry across the quiet midnight sky for inquisitive young minds.",
       "section": "Learning & Discovery",
@@ -844,7 +1281,7 @@
       "trailers": []
     },
     {
-      "id": 11,
+      "id": 16,
       "title": "Little Botanist: Why Do Trees Sleep?",
       "description": "A curious journey through the sleeping garden, explaining how flowers fold their petals when the sun sets.",
       "section": "Learning & Discovery",
@@ -902,7 +1339,7 @@
       "trailers": []
     },
     {
-      "id": 12,
+      "id": 17,
       "title": "Colors of the Deep Twilight",
       "description": "Art & color recognition through sunset transitions: golden orange, dusky violet, indigo velvet, and star silver.",
       "section": "Learning & Discovery",
@@ -960,7 +1397,7 @@
       "trailers": []
     },
     {
-      "id": 13,
+      "id": 18,
       "title": "Number Stars",
       "description": "Gentle rhythmic counting from 1 to 10 with friendly sleepy stars lighting up in succession.",
       "section": "Learning & Discovery",
